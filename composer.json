@@ -1,0 +1,34 @@
+{
+    "name": "rjr/tools",
+    "description": "php 日常开发小零件",
+    "type": "library",
+    "keywords": [
+        "php",
+        "rjr",
+        "tools",
+        "api",
+        "libs"
+    ],
+    "homepage": "http://www.rjr1888.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jiaran.ruan",
+            "email": "1606707347@qq.com"
+        }
+    ],
+    "require": {
+        "php":">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rjr\\Tools\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
